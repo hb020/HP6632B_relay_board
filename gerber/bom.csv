@@ -1,0 +1,13 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C600",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,100nF 25V,
+"F601, F602",Fuse_Littelfuse_395Series,2,Bussmann SS-5H-1.25A-APH,
+J1,Molex_KK-396_A-41791-0009_1x09_P3.96mm_Vertical,1,Molex 26-60-4090 (KK396),
+J610,TE_84953-8_1x08-1MP_P1.0mm_Horizontal,1,68610814422 8 pos 1mm FFC,
+J620,Molex_KK-396_A-41815-0009_1x09_P3.96mm_Horizontal,1,Molex 09-48-1094 or 09-48-3095,
+"K601, K602, K603",Relay_DPDT_Omron_G5V-2,3,V23105-A5303-A201,
+"K604, K605",Relay_Panasonic_ST2-F,2,ST2-DC12V-F,
+"R1, R3, R5",R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,3,75,
+"R601, R602",R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,2,220 0.5W,
+"R603, R605, R607",R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,3,100,
+"R604, R606",R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,2,150,
+U601,SOIC-16_3.9x9.9mm_P1.27mm,1,NCV1413B,

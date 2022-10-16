@@ -1,0 +1,4 @@
+(version 1)
+(rule HV
+    (condition "A.NetClass == 'conTroL' && (B.NetClass == 'EARTH' || B.NetClass == 'HV') ")
+    (constraint clearance (min 1.25mm)))

@@ -3,7 +3,7 @@ HP 66332A and HP 6632B-6634B #760 Relay Option Board
 This repository contains the schematics for a PCB to mount a relay board in an HP 6632B (and siblings) power supply. It is an adaption of the original A6 PCB used in option #760 units.
 This relay board allows 2 things:
 - the use of these power supplies as a 4 quadrant "poor man's SMU" (but with relay glitches).
-- to isolate the output. In some situations, like with a large capacitative load or a battery, it is possible to damage the PSU's crowbar circuit when switching the output off. This board allows the disconnection of the output terminals. 
+- to isolate the output. In some situations, like with a large capacitive load or a battery, it is possible to damage the PSU's crowbar circuit when switching the output off. This board allows the disconnection of the output terminals. 
 
 It is not needed to recalibrate the device after installation, although it would not hurt.
 

@@ -24,6 +24,16 @@ The final result looks like this:
 ![HP 66332A inside](images/inside.jpg)
 ![HP 66332A inside 2](images/inside_2.jpg)
 
+Board behaviour
+-----
+This board keeps the sense lines functional, and I have not seen an impact on accuracy.
+The sign of the voltage and current as measured (and set) does not change when you switch to "reverse" mode (the display still continues to show a positive voltage, although the voltage on the terminals is now negative).
+
+During relay switching there are the inevitable delays and small artifacts.
+Below is a switch from -1V (Reversed) to +1V (Normal), with a 1MΩ load. The switchover takes a little less than 80ms. 
+![polarity_reversal](images/polarity_reversal.png)
+The sine wave in the middle of the screen is 50Hz mains hum, as during that period the PSU output is disconnected. That hum, and the small spike that follows it, are largely suppressed when a load is applied.
+
 About
 -----
 The root folder contains the KiCAD files. 

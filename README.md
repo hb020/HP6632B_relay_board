@@ -32,6 +32,7 @@ The sign of the voltage and current as measured (and set) does not change when y
 During relay switching there are the inevitable delays and small artifacts.
 Below is a switch from -1V (Reversed) to +1V (Normal), with a 1MΩ load. The switchover takes a little less than 80ms. 
 ![polarity_reversal](images/polarity_reversal.png)
+
 The sine wave in the middle of the screen is 50Hz mains hum, as during that period the PSU output is disconnected. That hum, and the small spike that follows it, are largely suppressed when a load is applied.
 
 About

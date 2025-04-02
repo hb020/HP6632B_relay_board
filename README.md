@@ -16,7 +16,7 @@ In contrast to the original option #760 PCB, this board:
 - has other minor changes like swapping the ports on the driver IC and allowing the use of standard series resistors (at least, the series that I had). 
 - makes no use of the MP23/06612-00005 "Relay Option Bracket", which you will likely not have anyway if you do not already have the #760 board. The board is small enough and the weight distribution is such that this is not likely to be a problem.
 
-For the component choice I took inspiration from "lukier" on [eevblog](https://www.eevblog.com/forum/repair/agilent-6632b-fault-repair-and-several-design-flaws/msg1019018/#msg1019018). The main difference from his list was the FFC connectivity: 15cm is too short.
+For the component choice I took inspiration from "lukier" on [eevblog](https://www.eevblog.com/forum/repair/agilent-6632b-fault-repair-and-several-design-flaws/msg1019018/#msg1019018). The main difference from his list was the FFC connectivity: 15cm is too short. I used molex 15267-0237.
 
 The components and layout chosen allow the board to be used on all variants of the HP 663xB family - even the 100 V 6634B.
 
